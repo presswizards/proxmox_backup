@@ -30,7 +30,7 @@ LOG_LINES_TO_SEND=20  # Number of recent lines to send in the email
 KEEP_DAYS=7 # The number of remote rsync files to keep
 KEEP_LOCAL_DAYS=3 # The number of local files to keep
 
-umask 0777 # set permissions of files to 600 instead of 644
+umask 0177 # set permissions of files to 600 instead of 644
 
 echo "🚀 Starting backups of VMs on $HOSTNAME at $(date)" | tee -a "$LOG_FILE"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
