@@ -1,6 +1,12 @@
 # proxmox_backup
 A fairly simple script to vmdump your VMs by ID, and rsync them to a remote server, and rclone them to BackBlaze or other rclone compatible config.
 
+
+<p/>
+<a href="https://www.buymeacoffee.com/robwpdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a><br>
+If this code saves you time, helps your clients, or helps you do better work, I’d appreciate it.
+</p>
+
 ChatGPT created backup script for Rob @ PressWizards.com
 
 - Backs up via vzdump each VM by ID to local /tmp/ folder,
@@ -18,3 +24,9 @@ Note:
 - uses rsync via SSH ID file
 - uses rclone preconfigured for your fav B2, S3 or other remote cloud
 - Uses msmtp preconfigured for your fav SMTP provider
+
+
+<p/>
+<a href="https://www.buymeacoffee.com/robwpdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a><br>
+If this code saves you time, helps your clients, or helps you do better work, I’d appreciate it.
+</p>
